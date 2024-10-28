@@ -19,3 +19,25 @@ This project is an implementation of an IRC (Internet Relay Chat) server in C++.
 The server creates a listening socket and waits for client connections. Once connected, the server processes user input and dispatches commands to the appropriate handlers. Channels can be created, users can send messages, and various IRC commands are executed based on user requests.
 
 The project is designed for learning and educational purposes, showcasing how to build a simple IRC server from scratch in C++.
+
+## Installation
+Clone the repository.
+
+To perform the initial setup of the project, you can run the following commands:
+
+```bash
+make
+```
+To run the program, you need to execute the following command line(You can test it with all the files in the 'scene/' directory):
+```bash
+./miniRT scenes/cyl.rt
+```
+To perform the bonus setup of the project, you can run the following commands:
+
+```bash
+make bonus
+```
+To run the program, you need to execute the following command line(You can test it with all the files in the 'scene/bonus/' directory):
+```bash
+./miniRT_bonus scenes/bonus/cyl.rt
+```
